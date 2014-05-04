@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'spree', github: 'spree', branch: '2-2-stable'  
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-2-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
